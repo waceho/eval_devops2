@@ -33,7 +33,7 @@ class BaseJobBuilder {
                 Steps.gradle(delegate, gradleTasks)
             }
             publishers {
-                chucknorris()
+                amancio()
             }
         }
     }
