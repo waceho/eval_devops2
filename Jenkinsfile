@@ -8,21 +8,21 @@ folder(directory) {
 [
     [
         name: 'job_version_1',
-        repository: 'file:///home/vagrant/centos-jenkins-dsl/',
+        repository: 'https://github.com/waceho/eval_devops2.git',
         branch: 'V1',
         gitTag:'GIT_TAG_1',
         script:'start.sh'
     ],
     [
         name: 'job_version_2',
-        repository: 'file:///home/vagrant/centos-jenkins-dsl/',
+        repository: 'https://github.com/waceho/eval_devops2.git',
         branch: 'V2',
         gitTag:'GIT_TAG_2',
         script:'start.sh'
     ],
     [
         name: 'job_version_3',
-        repository: 'file:///home/vagrant/centos-jenkins-dsl/',
+        repository: 'https://github.com/waceho/eval_devops2.git',
         branch: 'V3',
         gitTag:'GIT_TAG_3',
         script:'start.sh'
