@@ -1,4 +1,4 @@
-import jobBuilder.BaseJobBuilder
+import BaseJobBuilder
 
 String directory = 'Job-eval'
 folder(directory) {
